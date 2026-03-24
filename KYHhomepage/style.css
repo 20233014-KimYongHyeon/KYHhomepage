@@ -1,0 +1,111 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+.navbar{
+    background: linear-gradient(to right, #F5E9F5, #E3FFFF);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.navbar-logo a{
+    filter: blur(0.5px);
+    color: black;
+    font-size: 50px;
+    font-family: 'Asta Sans KR', sans-serif;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.step:hover .navbar-logo a{
+    filter: blur(0px);
+    font-weight: bold;
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 40px;
+}
+
+.navbar-list a{
+    filter: blur(1px);
+    font-size: 30px;
+    font-family: 'Asta Sans KR', sans-serif;
+    transition: 0.3s ease;
+}
+
+.step:hover .navbar-list a{
+    filter: blur(0px);
+    font-weight: bold;
+}
+
+.main-content1{
+    background-image: url('1.png');
+    filter: blur(5px);
+    transition: all 0.5s ease;
+}
+
+.main-content1:hover{
+    filter: blur(0px);
+}
+
+.main-content2{
+    background-image: url('2.png');
+    filter: blur(5px);
+    transition: all 0.5s ease;
+}
+
+.main-content2:hover{
+    filter: blur(0px);
+}
+
+.main-content3{
+    background-image: url('3.png');
+    filter: blur(5px);
+    transition: all 0.5s ease;
+}
+
+.main-content3:hover{
+    filter: blur(0px);
+}
+
+
+h1{
+    font-size : 90px;
+    font-family: 'Do Hyeon KR', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    font-size : 60px;
+    font-family: 'Do Hyeon KR', sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+.main-content1, .main-content2, .main-content3 {
+
+    height: 100vh;          
+    display: flex;          
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: cover;     
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    transition: all 0.5s ease;
+    filter: blur(5px);
+}
