@@ -16,7 +16,7 @@ li{
 .navbar-logo a{
     filter: blur(0.5px);
     color: black;
-    font-size: 50px;
+    font-size: 5vw;
     font-family: 'Asta Sans KR', sans-serif;
     text-decoration: none;
     transition: 0.3s ease;
@@ -36,7 +36,7 @@ li{
 
 .navbar-list a{
     filter: blur(1px);
-    font-size: 30px;
+    font-size: 3vw;
     font-family: 'Asta Sans KR', sans-serif;
     transition: 0.3s ease;
 }
@@ -78,7 +78,7 @@ li{
 
 
 h1{
-    font-size : 90px;
+    font-size : 8vw;
     font-family: 'Do Hyeon KR', sans-serif;
     font-weight: bold;
     color: black;
@@ -86,7 +86,7 @@ h1{
 }
 
 h2{
-    font-size : 60px;
+    font-size : 4vw;
     font-family: 'Do Hyeon KR', sans-serif;
     color: black;
     text-align: center;
